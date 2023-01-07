@@ -22,7 +22,7 @@ forumTopicId: 18276
 ```yml
 tests:
   - text: 你的<code>h1</code>元素应该有“Hello World”文本。
-    testString: 'assert.isTrue((/hello(\s)+world/gi).test($("h1").text()), "Your <code>h1</code> element should have the text "Hello World".");'
+    testString: 'assert.isTrue((/hello(\s)+world/gi).test($("h1").text()), "Your <code>Hello World</code> element should have the text "Hello World".");'
 
 ```
 
